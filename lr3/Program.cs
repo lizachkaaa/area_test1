@@ -59,7 +59,26 @@ namespace lr3
 
                     Console.WriteLine("Площадь трапеции = " + area);
                     break;
+                case 5:
 
+                    Console.Write("Введите угол в градусах: ");
+                    double angleInDegrees = double.Parse(Console.ReadLine());
+
+
+                    Console.Write("Введите радиус: ");
+                    double radius = double.Parse(Console.ReadLine());
+
+
+                    double angleInRadians = Math.PI * angleInDegrees / 180;
+
+
+                    double sectorArea = 0.5 * angleInRadians * Math.Pow(radius, 2);
+
+                    Console.WriteLine("Sector Area: " + sectorArea);
+
+
+
+                    break;
                 default: Console.WriteLine("Выбор неверен "); break;
             }
         }
