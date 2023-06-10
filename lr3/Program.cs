@@ -44,57 +44,8 @@ namespace lr3
                     b = Convert.ToDouble(temp);
                     Console.WriteLine("Площадь треугольника = " + (a * b) / 2);
 
-                    break;
-                         case 4:
-                    Console.Write("Основание A = ");
-                    double topBase = double.Parse(Console.ReadLine());
+               break;
 
-                    Console.Write("Основание B = ");
-                    double bottomBase = double.Parse(Console.ReadLine());
-
-                    Console.Write("Высота h = ");
-                    double height = double.Parse(Console.ReadLine());
-
-                    double area = (topBase + bottomBase) * height / 2;
-
-                    Console.WriteLine("Площадь трапеции = " + area);
-                    break;
-                case 5:
-
-                    Console.Write("Введите угол в градусах: ");
-                    double angleInDegrees = double.Parse(Console.ReadLine());
-
-
-                    Console.Write("Введите радиус: ");
-                    double radius = double.Parse(Console.ReadLine());
-
-
-                    double angleInRadians = Math.PI * angleInDegrees / 180;
-
-
-                    double sectorArea = 0.5 * angleInRadians * Math.Pow(radius, 2);
-
-                    Console.WriteLine("Sector Area: " + sectorArea);
-
-
-
-                    break;
-                case 6:
-
-
-                    Console.Write("Введите длину: ");
-                    double baseLength = double.Parse(Console.ReadLine());
-
-                    Console.Write("Введите высоту: ");
-                    double qqq = double.Parse(Console.ReadLine());
-
-
-                    double www = 0.5 * baseLength * qqq;
-
-                    Console.WriteLine("Площадь прямоугольного треугольника: " + www);
-
-                    break;
-                default: Console.WriteLine("Выбор неверен "); break;
                 default: Console.WriteLine("Выбор неверен "); break;
             }
         }
