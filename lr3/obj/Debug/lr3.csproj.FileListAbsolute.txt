@@ -1,0 +1,6 @@
+C:\Users\КИПС211Залипаев\Downloads\area_test1-master\lr3\bin\Debug\lr3.exe
+C:\Users\КИПС211Залипаев\Downloads\area_test1-master\lr3\bin\Debug\lr3.pdb
+C:\Users\КИПС211Залипаев\Downloads\area_test1-master\lr3\obj\Debug\lr3.csprojAssemblyReference.cache
+C:\Users\КИПС211Залипаев\Downloads\area_test1-master\lr3\obj\Debug\lr3.csproj.CoreCompileInputs.cache
+C:\Users\КИПС211Залипаев\Downloads\area_test1-master\lr3\obj\Debug\lr3.exe
+C:\Users\КИПС211Залипаев\Downloads\area_test1-master\lr3\obj\Debug\lr3.pdb

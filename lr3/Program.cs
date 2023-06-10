@@ -33,7 +33,7 @@ namespace lr3
                     Console.Write("Радиус R = ");
                     temp = Console.ReadLine();
                     Rad = Convert.ToDouble(temp);
-                    Console.WriteLine("Площадь круга = " + 4 * Atan(1.0) * Pow(Rad, 2.0));
+                    Console.WriteLine("Площадь круга = " + 4 * Math.Atan(1.0) * Math.Pow(Rad, 2.0));
                     break;
                 case 3:
                     Console.Write("Высота А = ");
@@ -44,7 +44,21 @@ namespace lr3
                     b = Convert.ToDouble(temp);
                     Console.WriteLine("Площадь треугольника = " + (a * b) / 2);
 
-               break;
+                    break;
+                         case 4:
+                    Console.Write("Основание A = ");
+                    double topBase = double.Parse(Console.ReadLine());
+
+                    Console.Write("Основание B = ");
+                    double bottomBase = double.Parse(Console.ReadLine());
+
+                    Console.Write("Высота h = ");
+                    double height = double.Parse(Console.ReadLine());
+
+                    double area = (topBase + bottomBase) * height / 2;
+
+                    Console.WriteLine("Площадь трапеции = " + area);
+                    break;
 
                 default: Console.WriteLine("Выбор неверен "); break;
             }
