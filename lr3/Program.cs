@@ -79,6 +79,22 @@ namespace lr3
 
 
                     break;
+                case 6:
+
+
+                    Console.Write("Введите длину: ");
+                    double baseLength = double.Parse(Console.ReadLine());
+
+                    Console.Write("Введите высоту: ");
+                    double qqq = double.Parse(Console.ReadLine());
+
+
+                    double www = 0.5 * baseLength * qqq;
+
+                    Console.WriteLine("Площадь прямоугольного треугольника: " + www);
+
+                    break;
+                default: Console.WriteLine("Выбор неверен "); break;
                 default: Console.WriteLine("Выбор неверен "); break;
             }
         }
